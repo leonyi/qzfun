@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # encoding: utf-8
 
-#ToDo:
-#Question 4: Modify your solution so question 1, 2 and 3 still work, swap the state and attributes column in the data file
-
 from argparse import ArgumentParser
 import os
 import shutil
