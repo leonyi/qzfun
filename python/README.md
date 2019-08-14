@@ -27,7 +27,19 @@ optional arguments:
   -w, --swap            For when you want to swap the attributes and state in
                         the data file.
 
-OUTPUT:
+EXAMPLE SCRIPT RUNS AND  OUTPUT:
+» ./scan_file.py -q 'happy dancer'  data.txt
+Searching: happy dancer
+Result: ['Sara', 'Parker']
+
+» ./scan_file.py -q 'sre female'  data.txt
+Searching: sre female
+Result: ['Zoe']
+
+» ./scan_file.py -q 'likes_pizza'  data.txt
+Searching: likes_pizza
+Result: ['Sam', 'Parker']
+
 » ./scan_file.py -q 'happy sre' --swap data.txt
 Searching: happy sre
 Result: ['Joe']

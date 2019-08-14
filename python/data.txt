@@ -4,4 +4,4 @@ Sam:california:not dancer,happy,male,likes_pizza
 Bill:utah:running, bored
 Mary:arizona:mac_user, dancer,loves_math
 Parker:colorado:dancer , likes_pizza, happy
-Joe:california:sre,happy ,enjoys_music
+Joe:californa:sre,happy ,enjoys_music

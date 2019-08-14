@@ -55,8 +55,9 @@ def parse_file(file_name, search_query, state=None, swap=False):
 
     print("Searching: {}".format(search_query))
     print(f'Result: {fetch_query(people, search_query, state)}')
-    print("Swapping attributes and states columns in {}".format(file_name))
-    swap_file_entries(file_name)
+    if swap is True:
+      print("Swapping attributes and states columns in {}".format(file_name))
+      swap_file_entries(file_name)
 
 
 def swap_file_entries(file_name):
