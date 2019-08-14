@@ -10,7 +10,7 @@ A small collection of quick python exercises.
 scan_file.py [-h] [-q QUERY] [-s STATE] [-w] file_name
 
 ## Running Help:
-
+```
 python3 scan_file.py -h
 
 positional arguments:
@@ -26,8 +26,10 @@ optional arguments:
                         are: happy_sre, happy_dancer
   -w, --swap            For when you want to swap the attributes and state in
                         the data file.
+```
 
 ### triple_fibonacci.py 
-
+```
 python3 triple_fibonacci.py
+```
 
