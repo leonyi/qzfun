@@ -1,12 +1,7 @@
 #!/usr/bin/env python3
 # encoding: utf-8
-#
-#Question 1: Return a list of people who are happy dancer
-#
-#Question 2: Modify your solution so question 1 still work, return a list of people who are happy SRE
-#
-#Question 3: Modify your solution so question 1 and 2 still work, return a list of people who are happy dancer from California
-#
+
+#ToDo:
 #Question 4: Modify your solution so question 1, 2 and 3 still work, swap the state and attributes column in the data file
 
 from argparse import ArgumentParser
