@@ -26,6 +26,33 @@ optional arguments:
                         are: happy_sre, happy_dancer
   -w, --swap            For when you want to swap the attributes and state in
                         the data file.
+
+OUTPUT:
+» ./scan_file.py -q 'happy sre' --swap data.txt
+Searching: happy sre
+Result: ['Joe']
+Swapping attributes and states columns in data.txt
+
+>> ls |grep data
+-rw-r--r--  1 yleon  staff   312 Aug 14 01:38 data.txt
+-rw-r--r--  1 yleon  staff   312 Aug 14 01:38 data.txt.bkup
+
+(python-world3) yleon@khalessi ~/Dev/qzfun/python (master ✗ ◼) » cat data.txt
+Sara:lawyer,dancer,loves_sushi,female,not sleepy,happy:california
+Zoe:dancer,sre,,female, likes_burritos:colorado
+Sam:not dancer,happy,male,likes_pizza:california
+Bill:running, bored:utah
+Mary:mac_user, dancer,loves_math:arizona
+Parker:dancer , likes_pizza, happy:colorado
+Joe:sre,happy ,enjoys_music:california
+
+» cat data.txt.bkup
+Sara:california:lawyer,dancer,loves_sushi,female,not sleepy,happy
+Zoe:colorado:dancer,sre,,female, likes_burritos
+Sam:california:not dancer,happy,male,likes_pizza
+Bill:utah:running, bored
+Mary:arizona:mac_user, dancer,loves_math
+Parker:colorado:dancer , likes_pizza, happy
 ```
 
 ### triple_fibonacci.py 
