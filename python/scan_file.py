@@ -83,7 +83,7 @@ def main_args():
         help='Name of the file to parse.', action="store")
 
     parser.add_argument(
-        '-q', '--query', default="all",
+        '-q', '--query', default="happy",
         help='Specify the query to run.'
              'Please quote your search strings, for example: "sre female"', action="store")
 
