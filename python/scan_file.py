@@ -103,7 +103,7 @@ def main(args):
         sys.exit("ERROR: You must provide a file name to run.  Please run {} -h for more details".format(script_name))
 
     if not os.path.isfile(args.file_name):
-        sys.exit("ERROR: Can't find file, {}. Please check for its existence and run me again.")
+        sys.exit("ERROR: Can't find file, {}. Please check for its existence and run me again.".format(args.file_name))
 
     if os.path.isfile(args.file_name):
         parse_file(args.file_name,args.query,args.state,args.swap)
